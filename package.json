@@ -4,7 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browerify script.js > bundle.js && live-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/drewatienza/background_generator/issues"
   },
-  "homepage": "https://github.com/drewatienza/background_generator#readme"
+  "homepage": "https://github.com/drewatienza/background_generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
 }
